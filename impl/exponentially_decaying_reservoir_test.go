@@ -27,7 +27,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/metrics"
+	"github.com/cauherk/go-metrics"
 )
 
 func TestExponentiallyDecayingReservoir_GetSnapshotFor1000(t *testing.T) {

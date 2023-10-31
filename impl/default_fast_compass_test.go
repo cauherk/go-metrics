@@ -28,7 +28,7 @@ import (
 )
 
 import (
-	"github.com/apache/dubbo-go/metrics"
+	"github.com/cauherk/go-metrics"
 )
 
 func TestFastCompassImpl_Record(t *testing.T) {

@@ -18,7 +18,7 @@
 package impl
 
 import (
-	"github.com/apache/dubbo-go/metrics"
+	"github.com/cauherk/go-metrics"
 )
 
 type NopMetricManager struct {

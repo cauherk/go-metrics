@@ -18,13 +18,13 @@
 package impl
 
 import (
+	"github.com/cauherk/go-metrics/config"
 	"sync"
 	"sync/atomic"
 )
 
 import (
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/metrics"
+	"github.com/cauherk/go-metrics"
 )
 
 type DefaultMetricRegistry struct {

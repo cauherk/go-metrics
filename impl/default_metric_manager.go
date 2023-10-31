@@ -18,19 +18,17 @@
 package impl
 
 import (
+	"github.com/cauherk/go-metrics/config"
 	"sync"
 )
 
 import (
-	"github.com/apache/dubbo-go/common/constant"
-	"github.com/apache/dubbo-go/common/extension"
-	"github.com/apache/dubbo-go/config"
-	"github.com/apache/dubbo-go/metrics"
+	"github.com/cauherk/go-metrics"
 )
 
-func init() {
-	extension.SetMetricManager(constant.DEFAULT_KEY, newDefaultMetricManager())
-}
+//func init() {
+//	extension.SetMetricManager(constant.DEFAULT_KEY, newDefaultMetricManager())
+//}
 
 /*
  * this implementation dependent on  the MetricRegistry.
